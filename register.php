@@ -23,7 +23,7 @@ $deps_regions = array_slice($csvData, 1);
             transform: translateY(-50%);
         }
         body {
-            background: url(assets/img/bg-white.jpg) left center / cover no-repeat;
+            background: url(assets/img/25101.jpg) left center / cover no-repeat;
         }
     </style>
 </head>
@@ -33,7 +33,18 @@ $deps_regions = array_slice($csvData, 1);
         <h1 class="text-center">Formulaire d'inscription</h1>
         <div class="row justify-content-center">
             <div class="col-md-5">
-                <!-- Crééz votre formulaire ici -->
+
+            <form action="">
+                <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+
+                    <input type="date" id="start" name="trip-start"
+                    value="2018-07-22"
+                    min="2018-01-01" max="2018-12-31">
+                </div>
+            </form>
+
             </div>
         </div>
     </div>
